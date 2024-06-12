@@ -8,7 +8,7 @@ var userClickedPattern = [];
 
 var level = 0;
 var start = false;
-$("#level-title").on("click",function(){
+$("h1").on("click",function(){
   if(!start){
   
     $("h1").text("Level "+level);
